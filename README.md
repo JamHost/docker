@@ -5,5 +5,5 @@ docker build -f <FILE> -t <USERNAME>/<IMAGE_NAME>:<VERSION> .
 ```
 Then
 ```
-docker push -t <USERNAME>/<IMAGE_NAME>:<VERSION>
+docker push <USERNAME>/<IMAGE_NAME>:<VERSION>
 ```
